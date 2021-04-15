@@ -24,7 +24,7 @@ cloudinary.config({
 
 //catch all
 app.get("*", async (req, res) => {
-  res.sendFile(path.resolve("client/public/index.html"));
+  res.sendFile(path.resolve(staticDir + "/index.html"));
 });
 
 app.listen(port, () => {
