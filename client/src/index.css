@@ -433,6 +433,91 @@ header h1 {
   }
 }
 
+@media screen and (max-width: 375px) {
+  /*div wrapper for modal component*/
+  .gen-modal-wrapper {
+    height: 100%;
+  }
+  .port-modal-grid {
+    margin-top: 4vh;
+    height: 88vh;
+    border: 1px solid red;
+  }
+  .port-modal {
+    display: flex;
+    flex-flow: column;
+    height: 88vh;
+    gap: 0;
+  }
+  .flip-port-modal {
+    display: flex;
+    flex-flow: column-reverse;
+    height: 88vh;
+    gap: 0;
+  }
+  .port-img-wrapper {
+    height: 24vh;
+  }
+  /*check it out @*/
+  .port-img-wrapper h2 {
+    display: none;
+    /* font-size: 0.9rem;
+    margin-top: 0;
+    padding: 0; */
+  }
+  .port-img-wrapper img {
+    height: 17vh;
+    width: 70vw;
+    margin-left: 7vw;
+    box-shadow: 1px -0.8px 30px 8px rgba(144, 143, 143, 0.205);
+  }
+  .port-img-wrapper a {
+    font-size: 0.8rem;
+  }
+  .github-link {
+    font-size: 1rem;
+    margin-left: 45vw;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+
+  /*main div wrapper for modal component*/
+  /* .portfolio-modal-wrapper {
+    border: 1px solid black;
+    margin-top: 1vh;
+  } */
+  .portfolio-modal-wrapper h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  .portfolio-modal-wrapper h3 {
+    font-size: 0.95rem;
+    margin-top: 0.5vh;
+  }
+  .portfolio-modal-wrapper ul {
+    padding-left: 5.5vw;
+  }
+  .portfolio-modal-wrapper li {
+    font-size: 0.8rem;
+    padding-left: 2vw;
+  }
+
+  .portfolio-modal-wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .stack-logos {
+    /* height: 17%; */
+    width: 10%;
+    box-shadow: 0.2px -0.2px 25px 2px rgba(141, 137, 137, 0.192);
+  }
+  .leaflet-logo {
+    width: 22%;
+    background: rgba(245, 242, 242, 0.835);
+    border-radius: 10px;
+  }
+}
+
 /*------------------Passion--------------------*/
 #carousel-flex-container {
   display: flex;

@@ -7,6 +7,7 @@ const cloudinary = require("cloudinary").v2;
 
 const path = require("path");
 
+//helps with developing locally as an option
 const staticDir = process.env.PRODUCTION
   ? path.resolve("./client/build")
   : path.resolve("./client/public");
