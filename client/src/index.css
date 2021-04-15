@@ -488,6 +488,7 @@ header h1 {
   .portfolio-modal-wrapper h3 {
     font-size: 0.95rem;
     margin-top: 1vh;
+    margin-bottom: 0;
   }
   .portfolio-modal-wrapper ul {
     padding-left: 5.5vw;
@@ -500,7 +501,12 @@ header h1 {
   .portfolio-modal-wrapper p {
     font-size: 0.8rem;
   }
-
+  .tech-stack-wrapper {
+    margin-top: 0;
+  }
+  .tech-stack-wrapper div {
+    margin-top: 0;
+  }
   .stack-logos {
     /* height: 17%; */
     width: 10.5%;

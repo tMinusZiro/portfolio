@@ -29,7 +29,7 @@ const GeoModal = (props) => {
         <li>React hooks based approach</li>
       </ul>
       <h3 className="tech-stack">Tech Stack</h3>
-      <div>
+      <div className="tech-stack-wrapper">
         <img className="stack-logos" src={htmlLogo} alt="HTML5 Logo" />
         <img className="stack-logos" src={cssLogo} alt="CSS Logo" />
         <img className="stack-logos" src={jsLogo} alt="JavaScript Logo" />
