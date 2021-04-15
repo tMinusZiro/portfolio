@@ -447,7 +447,7 @@ header h1 {
   .flip-port-modal {
     display: flex;
     flex-flow: column-reverse;
-    height: 88vh;
+    height: 87vh;
     gap: 0;
   }
   .port-img-wrapper {
@@ -487,7 +487,7 @@ header h1 {
   }
   .portfolio-modal-wrapper h3 {
     font-size: 0.95rem;
-    margin-top: 1.4vh;
+    margin-top: 1vh;
   }
   .portfolio-modal-wrapper ul {
     padding-left: 5.5vw;
@@ -503,7 +503,7 @@ header h1 {
 
   .stack-logos {
     /* height: 17%; */
-    width: 11.5%;
+    width: 10.5%;
     box-shadow: 0.2px -0.2px 25px 2px rgba(141, 137, 137, 0.192);
   }
   .leaflet-logo {
