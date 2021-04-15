@@ -5,7 +5,7 @@ import gitLogo from "./svg/git.svg";
 import herokuLogo from "./svg/heroku.svg";
 import htmlLogo from "./svg/html-5.svg";
 import jsLogo from "./svg/javascript.svg";
-import leafletLogo from "./svg/leaflet.svg";
+import leafletLogo from "./svg/react-leaflet-icon.svg";
 import nodeLogo from "./svg/nodejs.svg";
 import reactLogo from "./svg/react.svg";
 import vsCodeLogo from "./svg/visual-studio.svg";
