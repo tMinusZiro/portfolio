@@ -35,7 +35,7 @@ const Passion = () => {
               <li>Most Memorable Trip: Red River Gorge, Ky</li>
               <li>Started: 2015</li>
 
-              <li>Dream Trip: Spain</li>
+              <li className="climbing-one">Dream Trip: Spain</li>
               <li>Shoes: LaSportiva Katana</li>
             </ul>
           </div>

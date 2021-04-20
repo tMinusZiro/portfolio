@@ -7,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -614,16 +614,53 @@ header h1 {
     margin-right: 4vw;
     margin-left: 4vw;
   }
+  .passion-list li {
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 1rem;
+  }
+
+  .climbing-one {
+    margin-top: 0.5rem;
+  }
+
+  .li-two {
+    padding-bottom: 0.5rem;
+  }
+  .li-six {
+    padding-top: 0;
+  }
 
   .imgCarousel {
     width: 100vw;
-    height: 35vh;
+    height: 30vh;
     object-fit: cover;
     border-radius: 5px;
   }
 
   .alice-carousel__stage {
     height: 65vh;
+  }
+
+  .alice-carousel__prev-btn-item {
+    font-size: 2.5em;
+    padding-top: 0;
+    margin-top: 0;
+    color: whitesmoke;
+  }
+  .alice-carousel__next-btn-item {
+    font-size: 2.5em;
+    color: whitesmoke;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .alice-carousel__prev-btn,
+  .alice-carousel__next-btn {
+    margin: 0;
+    padding: 0;
+  }
+
+  .alice-carousel__dots {
   }
 }
 
