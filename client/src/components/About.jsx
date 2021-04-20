@@ -19,14 +19,15 @@ const About = () => {
           {/* <figcaption style={{ color: "white" }}>Tristan Nelson</figcaption> */}
         </figure>
         <p>
-          Hi, <br />
           <br />
-          My name is Tristan, I'm 31 and grew up in the wonderful state of
-          Vermont. What defines me is my intense curiosity and passion for life.
-          I have lots of hobbies and interests - from working on a novel to
-          climbing some cliffs - I keep life interesting. My newest hobby is
-          more of a life-long career type of thing, its called computer
-          programming and I love it. <br />
+          I am Tristan. I'm 31 and grew up in Vermont. What defines me is my
+          intense curiosity and passion for life. I get excited about the
+          outdoors and in particular rock climbing. My background was in more
+          academic historical research, but recently I pivoted and began a
+          career in software development. What I enjoy most so far in this new
+          field is the feeling you get when a particularly tough problem is
+          finally solved.
+          <br />
           <br />
           If you’re curious about my journey as a developer check out my
           portfolio. Feel free to reach out via social media or email. <br />

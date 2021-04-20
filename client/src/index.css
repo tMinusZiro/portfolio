@@ -545,6 +545,27 @@ header h1 {
   color: black;
 }
 
+.passion-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 1rem;
+}
+.passion-list li {
+  margin-bottom: 0.5rem;
+}
+/*separates list items with longer text: biking*/
+.li-four,
+.li-six,
+.li-two {
+  margin-left: 2rem;
+}
+
+.program-one,
+.program-two {
+  margin-left: 1rem;
+}
+
 .imgCarousel {
   width: 60vw;
   height: 48vh;

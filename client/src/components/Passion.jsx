@@ -29,14 +29,15 @@ const Passion = () => {
               alt=""
             />
             <h2>Climbing</h2>
-            <p>
-              If I’m not at the computer, programming or leveling up, then I’m
-              thinking about where to climb next. What I love about the sport is
-              that it combines all these great activities into one neat package:
-              camping, hiking, adventuring, yoga, and more. To excel in climbing
-              requires discipline and a willingness to overcome personal fears
-              and mental blocks - through which an individual grows as a human.
-            </p>
+
+            <ul className="passion-list">
+              <li>Favorite Style: Sport</li>
+              <li>Most Memorable Trip: Red River Gorge, Ky</li>
+              <li>Started: 2015</li>
+
+              <li>Dream Trip: Spain</li>
+              <li>Shoes: LaSportiva Katana</li>
+            </ul>
           </div>
           <div className="carousel-img-wrapper">
             <img
@@ -47,15 +48,18 @@ const Passion = () => {
               alt=""
             />
             <h2>Biking</h2>
-            <p>
-              I got into cycling in my twenties and have absolutely loved it
-              ever since. The excitement and thrill of hitting some single trac
-              as the seasons change makes you keep coming back to the sport.
-              Discovering new trails and forests to explore is part of the
-              adventure. I prefer mountain biking but recently purchased a Surly
-              Crosscheck and have enjoyed getting to know the amazing local
-              network of roadways that connect our communities.
-            </p>
+            <ul className="passion-list passion-bike-list">
+              <li className="li-one">
+                Current Mountain Bike: Cannondale Trail4
+              </li>
+              <li className="li-two">Current Road Bike: Surly Crosscheck</li>
+              <li className="li-three">Dream Trip: Moab, UT</li>
+              <li className="li-four">Started: 2016</li>
+              <li className="li-five">
+                Most Impressive Trail: Kingdom Trails, VT
+              </li>
+              <li className="li-six">Wish List: Santa Cruz Hightower</li>
+            </ul>
           </div>
           <div className="carousel-img-wrapper">
             <img
@@ -89,8 +93,7 @@ const Passion = () => {
               type of community. I’ve always chosen to embrace my community and
               improve it in any way I can. My hope is to leverage the skills
               I’ve acquired as a full stack developer to help my local community
-              foster an inclusive and positive environment. Happy communities
-              build happy futures.
+              foster an inclusive and positive environment.
             </p>
           </div>
           <div className="carousel-img-wrapper">
@@ -102,15 +105,13 @@ const Passion = () => {
               alt=""
             />
             <h2>Football</h2>
-            <p>
-              The world calls it football, but we call it soccer. I grew up
-              playing the sport and it taught me how to work together on a team
-              to accomplish a shared goal. In football, the team is only as
-              strong as its weakest player. I love waking up early on Saturday
-              mornings to sip coffee and watch the English Premier League
-              matches from the Fall to Spring. My favorite team is Manchester
-              City.
-            </p>
+            <ul className="passion-list passion-soccer-list">
+              <li>Favorite Team: Manchester City</li>
+              <li>Favorite League: English Premier League</li>
+              <li>Best Young Player: Phil Foden</li>
+              <li>Current Boot: Nike Mercurial Superfly 8 Elite</li>
+              <li>Memorable Live Event: Copa America</li>
+            </ul>
           </div>
           <div className="carousel-img-wrapper">
             <img
@@ -121,13 +122,15 @@ const Passion = () => {
               alt=""
             />
             <h2>Programming</h2>
-            <p>
-              I have discovered a genuine passion in software development -
-              tracing the nuances of a complex problem or collaborating within a
-              team to quickly solve it - and wish to leverage my diversified
-              past to provide real value for future clients. The excitement of
-              building applications that enhance people’s lives never fades.
-            </p>
+            <ul className="passion-list">
+              <li>Primary Language: JavaScript</li>
+              <li className="program-one">Next Up: Python and AWS</li>
+              <li>Biggest Challenge: Learning React in a week</li>
+              <li className="program-two">
+                Goals: Contribute to an open-source project
+              </li>
+              <li>Passion Projects: Adult Digital Coloring App</li>
+            </ul>
           </div>
         </AliceCarousel>
       </section>
