@@ -7,18 +7,16 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
   text-rendering: optimizeLegibility;
-  height: 100vh;
-  background: linear-gradient(
-      354deg,
-      rgba(82, 126, 168, 0.671) 0%,
-      #388ec3de 100%
-    ),
-    url("https://res.cloudinary.com/tjn-personal/image/upload/v1616452746/personal-site/mtn-background_xfkvqt.jpg");
+  /* height: 100vh;
+  width: 100vw; */
+  background: linear-gradient(354deg, #527ea7ab 0%, #388dc2de 100%),
+    url("https://res.cloudinary.com/tjn-personal/image/upload/v1616452746/personal-site/mtn-background_xfkvqt.jpg")
+      no-repeat center center / cover;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

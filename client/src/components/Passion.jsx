@@ -106,9 +106,8 @@ const Passion = () => {
             />
             <h2>Football</h2>
             <ul className="passion-list passion-soccer-list">
-              <li>Favorite Team: Manchester City</li>
               <li>Favorite League: English Premier League</li>
-              <li>Best Young Player: Phil Foden</li>
+              <li>Exciting Young Player: Phil Foden</li>
               <li>Current Boot: Nike Mercurial Superfly 8 Elite</li>
               <li>Memorable Live Event: Copa America</li>
             </ul>
