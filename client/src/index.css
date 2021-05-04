@@ -12,14 +12,12 @@
 
 body {
   text-rendering: optimizeLegibility;
-  /*height: 100vh;
-  width: 100vw;*/
+
   /* background: linear-gradient(354deg, #527ea7ab 0%, #388dc2de 100%),
     url("https://res.cloudinary.com/tjn-personal/image/upload/v1616452746/personal-site/mtn-background_xfkvqt.jpg")
       no-repeat center center / cover; */
   background-image: url("https://res.cloudinary.com/tjn-personal/image/upload/v1620145429/personal-site/blended-mtn-background_foyjxz.png");
   background-size: cover;
-  /* background-position-x: 100%; */
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -291,10 +289,15 @@ header h1 {
   box-sizing: border-box;
 }
 
+video {
+  width: 500px;
+}
+
 .port-img-wrapper img {
   width: 45vw;
   height: 40vh;
   object-fit: fill;
+
   border-radius: 5px;
   box-shadow: 5px 5px 25px 15px rgba(151, 149, 149, 0.178);
 }
@@ -336,7 +339,7 @@ header h1 {
 
 .tech-stack {
   margin-top: 3.5vh;
-  margin-bottom: 1vh;
+  margin-bottom: 0.5vh;
 }
 .til-stack {
   margin-top: 2.7vh;
@@ -345,13 +348,27 @@ header h1 {
 /*SVG Icons*/
 .stack-logos {
   margin-right: 10px;
-  width: 11.5%;
+  width: 9%;
 }
 .leaflet-logo {
   width: 14%;
 }
 .til-logos {
   width: 10.5%;
+}
+
+/* media query for the admagic video - has to be in pixels*/
+/*video size for larger laptop screens between 15-17inch*/
+@media screen and (min-width: 1400px) {
+  video {
+    width: 700px;
+  }
+}
+/*video size for larger 20inch monitors*/
+@media screen and (min-width: 1600px) {
+  video {
+    width: 900px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -427,6 +444,10 @@ header h1 {
   }
   .leaflet-logo {
     width: 14%;
+  }
+  video {
+    width: 340px;
+    height: 150px;
   }
 }
 
@@ -515,6 +536,11 @@ header h1 {
   }
   .leaflet-logo {
     width: 14%;
+  }
+
+  video {
+    width: 310px;
+    height: 140px;
   }
 }
 

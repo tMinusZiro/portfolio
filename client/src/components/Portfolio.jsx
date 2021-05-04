@@ -6,6 +6,8 @@ import GeoModal from "./modals/GeoModal.jsx";
 import TicModal from "./modals/TicModal.jsx";
 import TilModal from "./modals/TilModal.jsx";
 import MockModal from "./modals/MockModal.jsx";
+import AdMagic from "./modals/AdMagic.jsx";
+
 const Portfolio = () => {
   return (
     <div>
@@ -14,6 +16,23 @@ const Portfolio = () => {
       </header>
       <div id="align-port-grid">
         <main className="port-modal-grid">
+          <section className="port-modal flip-port-modal">
+            <div className="gen-modal-wrapper">
+              <AdMagic />
+            </div>
+            <div className="port-img-wrapper">
+              <video controls>
+                <source
+                  src="https://res.cloudinary.com/tjn-personal/video/upload/v1620144295/personal-site/Demo_Day_Cohort-6_Team_2_Ad_Magic_without_QA_s5mw0j.mp4"
+                  type="video/mp4"
+                />
+              </video>
+
+              <a href="https://github.com/tMinusZiro/ad-magic">
+                <h3 className="github-link">GitHub Repo</h3>
+              </a>
+            </div>
+          </section>
           <section className="port-modal ">
             <div className="port-img-wrapper">
               <a href="https://github.com/tMinusZiro/geo-vermonter-tristan-jack-cortney">
